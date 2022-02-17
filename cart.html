@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Корзина</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220217222549">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top header-top">
+				<div class="header-top__container">
+					<div class="header-top__info info-top-header">
+						<a href="tel:+79247652820" class="info-top-header__item _icon-phone">+7 (800) 000 00 00</a>
+						<div class="info-top-header__item info-top-header__location _icon-location">г. Новосибирск, ул. Петра
+							Алексеева, д. 8, ТЦ “Мега”
+						</div>
+						<div class="info-top-header__item _icon-time">Ежедневно с 10:00 до 19:00</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom header-bottom">
+				<div class="header-bottom__wrapper">
+					<div class="header-bottom__container">
+						<div class="header-bottom__columns">
+							<div data-da=" .menu__body, 1366" class="header-bottom__column">
+								<nav class="header-bottom__menu-header menu-header">
+									<ul class="menu-header__list">
+										<li><a href="#" class="menu-header__link">Каталог</a></li>
+										<li><a href="delivery.html" class="menu-header__link">Оплата и доставка</a></li>
+										<li><a href="#" class="menu-header__link">Бонусная программа</a></li>
+										<li><a href="#" class="menu-header__link">О компании</a></li>
+										<li><a href="#" class="menu-header__link">Контакты</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="header-bottom__column header-bottom__column_logo column-logo">
+								<a href="home.html" class="header__logo"><picture><source srcset="img/logotip.webp" type="image/webp"><img src="img/logotip.png?_v=1645111550070" alt=""></picture></a>
+							</div>
+							<div class="header-bottom__column">
+								<div class="header-bottom__action action-header">
+									<form data-da=" .action-header__items, 450" action="#" class="action-header__form search-form">
+										<input autocomplete="off" type="text" name="form[]" placeholder="Поиск товара" class="search-form__input">
+										<button type="button" class="search-form__btn _icon-search"></button>
+									</form>
+									<div class="action-header__items ">
+										<div class="action-header__items-inner">
+											<button data-popup="#popupreg" type="button" class="action-header__item _icon-login">
+												<span>Войти</span> </button>
+											<a href="#" class="action-header__item _icon-favorite"> <span>Избранное</span></a>
+											<a href="cart.html" type="button" class="action-header__item _icon-cart"><span>Корзина</span> </a>
+										</div>
+									</div>
+									<nav data-da=" .column-logo, 649.99" class="menu">
+										<button type="button" class="menu__icon icon-menu"><span></span></button>
+										<div class="menu__body"></div>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__cart cart">
+				<div class="cart__container">
+					<div class="cart__pages pages">
+						<div class="pages__items">
+							<a href="home.html" class="pages__item">Главная</a>
+							<div class="pages__item _icon-arrow-up"></div>
+							<a href="#" class="pages__item">Корзина</a>
+						</div>
+					</div>
+					<section class="cart__order order">
+						<div class="order__header header-order">
+							<div class="header-order__title subtitle">Моя корзина</div>
+							<button class="header-order__button">Очистить корзину</button>
+						</div>
+						<div class="order__inner">
+							<div class="order__items">
+								<div class="order__item item-order">
+									<div class="item-order__info">
+										<a href="#" class="item-order__image">
+											<picture><source srcset="img/catalog/02.webp" type="image/webp"><img src="img/catalog/02.png?_v=1645111550070" alt=""></picture>
+										</a>
+										<div class="item-order__content">
+											<div class="item-order__title-body">
+												<a href="#" class="item-order__title">Пончик "Апельсин", 180г</a>
+											</div>
+											<div class="item-order__prices">
+												<div class="item-order__price-old"><small>170 ₽</small></div>
+												<div class="item-order__price-new price">150 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-order__counting">
+										<div class="item-order__quantity quantity">
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<div class="item-order__price price">150₽</div>
+										<div class="item-order__cart _icon-cart-two"></div>
+									</div>
+								</div>
+								<div class="order__item item-order">
+									<div class="item-order__info">
+										<a href="#" class="item-order__image">
+											<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.png?_v=1645111550070" alt=""></picture>
+										</a>
+										<div class="item-order__content">
+											<div class="item-order__title-body">
+												<a href="#" class="item-order__title">Пончик "Клубника", 180г</a>
+											</div>
+											<div class="item-order__prices">
+												<div class="item-order__price-old"></div>
+												<div class="item-order__price-new price">150₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-order__counting">
+										<div class="item-order__quantity quantity">
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<div class="item-order__price price">150₽</div>
+										<div class="item-order__cart _icon-cart-two"></div>
+									</div>
+								</div>
+								<div class="order__item item-order">
+									<div class="item-order__info">
+										<a href="#" class="item-order__image">
+											<picture><source srcset="img/catalog/05.webp" type="image/webp"><img src="img/catalog/05.png?_v=1645111550070" alt=""></picture>
+										</a>
+										<div class="item-order__content">
+											<div class="item-order__title-body">
+												<a href="#" class="item-order__title">Пончик "Апельсин", 180г</a>
+											</div>
+											<div class="item-order__prices">
+												<div class="item-order__price-old"></div>
+												<div class="item-order__price-new price">65 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-order__counting">
+										<div class="item-order__quantity quantity">
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<div class="item-order__price price">150₽</div>
+										<div class="item-order__cart _icon-cart-two"></div>
+									</div>
+								</div>
+							</div>
+							<div class="order__counting counting-order">
+								<div class="counting-order__body">
+									<div class="counting-order__items">
+										<div class="counting-order__item">
+											<div class="counting-order__name">Товары, 4 шт:<span></span></div>
+											<div class="counting-order__price">600 ₽</div>
+										</div>
+										<div class="counting-order__item">
+											<div class="counting-order__name">Скидка на товары:</div>
+											<div class="counting-order__price">35 ₽</div>
+										</div>
+									</div>
+									<div class="counting-order__footer footer-counting">
+										<div class="footer-counting__item footer-counting__bonus">Вам будет начислено:
+											<span>51 бонус</span>
+										</div>
+										<div class="footer-counting__item footer-counting__total">Итого:<span>600
+												₽</span></div>
+									</div>
+									<a href="checkout.html" class="counting-order__button btn">Оформить заказ</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="cart__more more-cart">
+						<div class="more-cart__title subtitle">С этим покупают</div>
+						<div class="more-cart__items">
+							<div class="more-cart__slider">
+								<div class="more-cart__swiper">
+									<div class="more-cart__slide">
+										<div class="more-cart__item item-card">
+											<div class="item-card__body _icon-faw-color">
+												<a href="card-product.html" class="item-card__image">
+													<span class="item-card__image-img-ibg">
+														<picture><source srcset="img/catalog/06.webp" type="image/webp"><img src="img/catalog/06.png?_v=1645111550070" alt=""></picture>
+													</span>
+												</a>
+												<div class="item-card__title">
+													<a href="card-product.html" class="item-card__link-title"> Пончик "Матча"<br> 150г</a>
+												</div>
+												<div class="item-card__color color-items">
+													<div class="color-items__item color-items__item-1"></div>
+													<div class="color-items__item color-items__item-2"></div>
+													<div class="color-items__item color-items__item-3"></div>
+													<div class="color-items__item color-items__item-4"></div>
+													<div class="color-items__text">+5</div>
+												</div>
+												<div class="item-card__prices">
+													<div class="item-card__price">150 ₽</div>
+												</div>
+												<button class="item-card__button _icon-cart">В корзину</button>
+											</div>
+										</div>
+									</div>
+									<div class="more-cart__slide">
+										<div class="more-cart__item item-card">
+											<div class="item-card__body _icon-faw-color">
+												<a href="card-product.html" class="item-card__image">
+													<span class="item-card__image-img-ibg">
+														<picture><source srcset="img/catalog/07.webp" type="image/webp"><img src="img/catalog/07.png?_v=1645111550070" alt=""></picture>
+													</span>
+												</a>
+												<div class="item-card__title">
+													<a href="card-product.html" class="item-card__link-title"> Пончик "Апельсин"<br> 180г</a>
+												</div>
+												<div class="item-card__color color-items">
+													<div class="color-items__item color-items__item-1"></div>
+													<div class="color-items__item color-items__item-2"></div>
+													<div class="color-items__item color-items__item-3"></div>
+													<div class="color-items__item color-items__item-4"></div>
+													<div class="color-items__text">+5</div>
+												</div>
+												<div class="item-card__prices">
+													<div class="item-card__price">80 ₽</div>
+												</div>
+												<button class="item-card__button _icon-cart">В корзину</button>
+											</div>
+										</div>
+									</div>
+									<div class="more-cart__slide">
+										<div class="more-cart__item item-card">
+											<div class="item-card__body _icon-faw-color">
+												<a href="card-product.html" class="item-card__image">
+													<span class="item-card__image-img-ibg">
+														<picture><source srcset="img/catalog/08.webp" type="image/webp"><img src="img/catalog/08.png?_v=1645111550070" alt=""></picture>
+													</span>
+												</a>
+												<div class="item-card__title">
+													<a href="card-product.html" class="item-card__link-title"> Пончик "Клубника"<br> 160г</a>
+												</div>
+												<div class="item-card__color color-items">
+													<div class="color-items__item color-items__item-1"></div>
+													<div class="color-items__item color-items__item-2"></div>
+													<div class="color-items__item color-items__item-3"></div>
+													<div class="color-items__item color-items__item-4"></div>
+													<div class="color-items__text">+5</div>
+												</div>
+												<div class="item-card__prices">
+													<div class="item-card__price">150 ₽</div>
+												</div>
+												<button class="item-card__button _icon-cart">В корзину</button>
+											</div>
+										</div>
+									</div>
+									<div class="more-cart__slide">
+										<div class="more-cart__item item-card">
+											<div class="item-card__body _icon-faw-color">
+												<a href="card-product.html" class="item-card__image">
+													<span class="item-card__image-img-ibg">
+														<picture><source srcset="img/catalog/05.webp" type="image/webp"><img src="img/catalog/05.png?_v=1645111550070" alt=""></picture>
+													</span>
+												</a>
+												<div class="item-card__title">
+													<a href="card-product.html" class="item-card__link-title">Пончик "Апельсин"<br> 180г</a>
+												</div>
+												<div class="item-card__color color-items">
+													<div class="color-items__item color-items__item-1"></div>
+													<div class="color-items__item color-items__item-2"></div>
+													<div class="color-items__item color-items__item-3"></div>
+													<div class="color-items__item color-items__item-4"></div>
+													<div class="color-items__text">+5</div>
+												</div>
+												<div class="item-card__prices">
+													<div class="item-card__price">385 ₽</div>
+												</div>
+												<button class="item-card__button _icon-cart">В корзину</button>
+											</div>
+										</div>
+									</div>
+									<div class="more-cart__slide">
+										<div class="more-cart__item item-card">
+											<div class="item-card__body _icon-faw-color">
+												<a href="card-product.html" class="item-card__image">
+													<span class="item-card__image-img-ibg">
+														<picture><source srcset="img/catalog/02.webp" type="image/webp"><img src="img/catalog/02.png?_v=1645111550070" alt=""></picture>
+													</span>
+												</a>
+												<div class="item-card__title">
+													<a href="card-product.html" class="item-card__link-title">Пончик "Апельсин"<br> 180г</a>
+												</div>
+												<div class="item-card__color color-items">
+													<div class="color-items__item color-items__item-1"></div>
+													<div class="color-items__item color-items__item-2"></div>
+													<div class="color-items__item color-items__item-3"></div>
+													<div class="color-items__item color-items__item-4"></div>
+													<div class="color-items__text">+5</div>
+												</div>
+												<div class="item-card__prices">
+													<div class="item-card__price">385 ₽</div>
+												</div>
+												<button class="item-card__button _icon-cart">В корзину</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="more-cart__controlls controlls-more-cart">
+									<div class="controlls-more-cart__arrows">
+										<div class="controlls-more-cart__arrow controlls-more-cart__arrow-prev arrow _icon-arrow-prev">
+										</div>
+										<div class="controlls-more-cart__arrow controlls-more-cart__arrow-next arrow _icon-arrow-next">
+										</div>
+									</div>
+								</div>
+								<div class="controlls-more-cart__dotts dotts"></div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+	</div>
+	</main>
+	</div>
+
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div> -->
+
+	<div id="popupreg" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__body body-popup">
+					<div class="body-popup__inner">
+						<section class="body-popup__block block-item">
+							<h2 class="block-item__title">У вас уже есть аккаунт?</h2>
+							<button type="button" class="block-item__btn btn signin-btn">Войти</button>
+						</section>
+						<section class="body-popup__block block-item">
+							<h2 class="block-item__title">Еще не зарегистрированы?</h2>
+							<button type="button" class="block-item__btn btn signup-btn">Зарегистрироваться</button>
+						</section>
+					</div>
+				</div>
+				<div class="popup__form form-popup">
+					<form action="#" class="form-popup__login login-form-popup form_signin ">
+						<button data-close type="button" class="popup__close _icon-close"></button>
+						<h3 class="login-form-popup__title subtitle">Войти в личный кабинет</h3>
+						<div class="login-form-popup__item">
+							<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Номер телефона" class="login-form-popup__input">
+						</div>
+						<div class="login-form-popup__item">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Пароль" class="login-form-popup__input _icon-show">
+						</div>
+						<div class="login-form-popup__item login-form-popup__checkbox checkbox-data-checkout">
+							<input id="c_2" data-error="Ошибка" class="checkbox-data-checkout__input" type="checkbox" value="1" name="form[]">
+							<label for="c_2" class="checkbox-data-checkout__label"><span class="checkbox-data-checkout__text">Запомнить меня</span></label>
+						</div>
+						<div class="login-form-popup__item login-form-popup__item-footer">
+							<button type="submit" class="login-form-popup__button btn">Войти</button>
+							<button class="login-form-popup__text-btn">Забыли пароль?</button>
+						</div>
+					</form>
+					<form action="#" class="form-popup__login login-form-popup form_signup ">
+						<button data-close type="button" class="popup__close _icon-close"></button>
+						<h3 class="login-form-popup__title subtitle">Регистрация</h3>
+						<div class="login-form-popup__item">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="login-form-popup__input ">
+						</div>
+						<div class="login-form-popup__item">
+							<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Номер телефона" class="login-form-popup__input ">
+						</div>
+						<div class="login-form-popup__item">
+							<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Email" class="login-form-popup__input ">
+						</div>
+						<div class="login-form-popup__item">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Пароль" class="login-form-popup__input _icon-show">
+						</div>
+						<div class="login-form-popup__item login-form-popup__item-footer">
+							<button type="submit" class="login-form-popup__btn btn">Зарегистрироваться</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/app.min.js?_v=20220217222550"></script>
+</body>
+
+</html>
