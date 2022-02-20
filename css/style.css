@@ -2,16 +2,16 @@
 @import url(https://fonts.googleapis.com/css?family=Spectral+SC:500,600);
 @charset "UTF-8";
 @font-face {
-  font-family: icons;
+  font-family: gothampro;
   font-display: swap;
-  src: url("../fonts/icons.woff2") format("woff2"), url("../fonts/icons.woff") format("woff");
+  src: url("../fonts/gothampro.woff2") format("woff2"), url("../fonts/gothampro.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: gothampro;
+  font-family: icons;
   font-display: swap;
-  src: url("../fonts/gothampro.woff2") format("woff2"), url("../fonts/gothampro.woff") format("woff");
+  src: url("../fonts/icons.woff2") format("woff2"), url("../fonts/icons.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -1636,10 +1636,14 @@ body.popup-show::after {
   }
 }
 
+@media (min-width: 48em) {
+  .menu__body {
+    width: 50%;
+  }
+}
 @media (max-width: 85.375em) {
   .menu__body {
     position: fixed;
-    width: 50%;
     height: 100%;
     right: -100%;
     top: 0;
@@ -1652,7 +1656,7 @@ body.popup-show::after {
     right: 0;
   }
 }
-@media (max-width: 48em) {
+@media (max-width: 47.99875em) {
   .menu__body {
     width: 100%;
   }
@@ -1745,7 +1749,7 @@ body.popup-show::after {
   height: 2.375rem;
   border: 1px solid #bdbdbd;
   border-radius: 46px;
-  padding: 0rem 1.25rem;
+  padding: 0px 2.5rem 0px 1.25rem;
   background: #f7f1fccf;
   cursor: pointer;
   transition: all 0.3s ease 0s;
@@ -2300,10 +2304,13 @@ body.popup-show::after {
 .popular-tabs__title._tab-active {
   color: #976464;
 }
+@media (max-width: 85.375em) {
+  .popular-tabs__title {
+    margin-bottom: 0.625rem;
+  }
+}
 .popular-tabs-new__slide {
   position: relative;
-  max-width: 18.75rem;
-  max-height: 30.3125rem;
 }
 .slide-new {
   cursor: pointer;
@@ -2343,6 +2350,16 @@ body.popup-show::after {
   padding: 27.5rem 1.25rem 1.5rem 2.125rem;
 }
 
+.controlls-new__arrows {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (max-width: 85.375em) {
+  .controlls-new__arrows {
+    margin-bottom: 0;
+  }
+}
 .controlls-new__arrow-prev {
   padding-right: 2.1428571429em;
 }
@@ -4342,6 +4359,7 @@ body.popup-show::after {
   .checkbox-data-checkout__label::after {
     font-size: 1rem;
     left: 0.1875rem;
+    top: 0.1875rem;
   }
 }
 .checkbox-data-checkout__text {
