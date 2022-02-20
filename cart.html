@@ -5,7 +5,7 @@
 	<title>Корзина</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220217222549">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220220173315">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@
 							<div data-da=" .menu__body, 1366" class="header-bottom__column">
 								<nav class="header-bottom__menu-header menu-header">
 									<ul class="menu-header__list">
-										<li><a href="#" class="menu-header__link">Каталог</a></li>
+										<li><a href="catalog.html" class="menu-header__link">Каталог</a></li>
 										<li><a href="delivery.html" class="menu-header__link">Оплата и доставка</a></li>
 										<li><a href="#" class="menu-header__link">Бонусная программа</a></li>
 										<li><a href="#" class="menu-header__link">О компании</a></li>
@@ -41,7 +41,7 @@
 								</nav>
 							</div>
 							<div class="header-bottom__column header-bottom__column_logo column-logo">
-								<a href="home.html" class="header__logo"><picture><source srcset="img/logotip.webp" type="image/webp"><img src="img/logotip.png?_v=1645111550070" alt=""></picture></a>
+								<a href="home.html" class="header__logo"><picture><source srcset="img/logotip.webp" type="image/webp"><img src="img/logotip.png?_v=1645353195386" alt=""></picture></a>
 							</div>
 							<div class="header-bottom__column">
 								<div class="header-bottom__action action-header">
@@ -88,7 +88,7 @@
 								<div class="order__item item-order">
 									<div class="item-order__info">
 										<a href="#" class="item-order__image">
-											<picture><source srcset="img/catalog/02.webp" type="image/webp"><img src="img/catalog/02.png?_v=1645111550070" alt=""></picture>
+											<picture><source srcset="img/catalog/02.webp" type="image/webp"><img src="img/catalog/02.png?_v=1645353195386" alt=""></picture>
 										</a>
 										<div class="item-order__content">
 											<div class="item-order__title-body">
@@ -101,12 +101,10 @@
 										</div>
 									</div>
 									<div class="item-order__counting">
-										<div class="item-order__quantity quantity">
-											<button type="button" class="quantity__button quantity__button_minus"></button>
-											<div class="quantity__input">
-												<input autocomplete="off" type="text" name="form[]" value="1">
-											</div>
-											<button type="button" class="quantity__button quantity__button_plus"></button>
+										<div class="item-order__quantity quantity-test">
+											<button type="button" class="quantity__controll" data-action="minus"></button>
+											<div class="quantity__current" data-counter>1</div>
+											<button type="button" class="quantity__controll quantity__controll-plus" data-action="plus"></button>
 										</div>
 										<div class="item-order__price price">150₽</div>
 										<div class="item-order__cart _icon-cart-two"></div>
@@ -115,7 +113,7 @@
 								<div class="order__item item-order">
 									<div class="item-order__info">
 										<a href="#" class="item-order__image">
-											<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.png?_v=1645111550070" alt=""></picture>
+											<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.png?_v=1645353195386" alt=""></picture>
 										</a>
 										<div class="item-order__content">
 											<div class="item-order__title-body">
@@ -128,12 +126,10 @@
 										</div>
 									</div>
 									<div class="item-order__counting">
-										<div class="item-order__quantity quantity">
-											<button type="button" class="quantity__button quantity__button_minus"></button>
-											<div class="quantity__input">
-												<input autocomplete="off" type="text" name="form[]" value="1">
-											</div>
-											<button type="button" class="quantity__button quantity__button_plus"></button>
+										<div class="item-order__quantity quantity-test">
+											<button type="button" class="quantity__controll" data-action="minus"></button>
+											<div class="quantity__current" data-counter>1</div>
+											<div class="quantity__controll quantity__controll-plus" data-action="plus"></div>
 										</div>
 										<div class="item-order__price price">150₽</div>
 										<div class="item-order__cart _icon-cart-two"></div>
@@ -142,7 +138,7 @@
 								<div class="order__item item-order">
 									<div class="item-order__info">
 										<a href="#" class="item-order__image">
-											<picture><source srcset="img/catalog/05.webp" type="image/webp"><img src="img/catalog/05.png?_v=1645111550070" alt=""></picture>
+											<picture><source srcset="img/catalog/05.webp" type="image/webp"><img src="img/catalog/05.png?_v=1645353195386" alt=""></picture>
 										</a>
 										<div class="item-order__content">
 											<div class="item-order__title-body">
@@ -155,12 +151,10 @@
 										</div>
 									</div>
 									<div class="item-order__counting">
-										<div class="item-order__quantity quantity">
-											<button type="button" class="quantity__button quantity__button_minus"></button>
-											<div class="quantity__input">
-												<input autocomplete="off" type="text" name="form[]" value="1">
-											</div>
-											<button type="button" class="quantity__button quantity__button_plus"></button>
+										<div class="item-order__quantity quantity-test">
+											<button type="button" class="quantity__controll" data-action="minus"></button>
+											<div class="quantity__current" data-counter>1</div>
+											<div class="quantity__controll quantity__controll-plus" data-action="plus"></div>
 										</div>
 										<div class="item-order__price price">150₽</div>
 										<div class="item-order__cart _icon-cart-two"></div>
@@ -201,7 +195,7 @@
 											<div class="item-card__body _icon-faw-color">
 												<a href="card-product.html" class="item-card__image">
 													<span class="item-card__image-img-ibg">
-														<picture><source srcset="img/catalog/06.webp" type="image/webp"><img src="img/catalog/06.png?_v=1645111550070" alt=""></picture>
+														<picture><source srcset="img/catalog/06.webp" type="image/webp"><img src="img/catalog/06.png?_v=1645353195386" alt=""></picture>
 													</span>
 												</a>
 												<div class="item-card__title">
@@ -226,7 +220,7 @@
 											<div class="item-card__body _icon-faw-color">
 												<a href="card-product.html" class="item-card__image">
 													<span class="item-card__image-img-ibg">
-														<picture><source srcset="img/catalog/07.webp" type="image/webp"><img src="img/catalog/07.png?_v=1645111550070" alt=""></picture>
+														<picture><source srcset="img/catalog/07.webp" type="image/webp"><img src="img/catalog/07.png?_v=1645353195386" alt=""></picture>
 													</span>
 												</a>
 												<div class="item-card__title">
@@ -251,7 +245,7 @@
 											<div class="item-card__body _icon-faw-color">
 												<a href="card-product.html" class="item-card__image">
 													<span class="item-card__image-img-ibg">
-														<picture><source srcset="img/catalog/08.webp" type="image/webp"><img src="img/catalog/08.png?_v=1645111550070" alt=""></picture>
+														<picture><source srcset="img/catalog/08.webp" type="image/webp"><img src="img/catalog/08.png?_v=1645353195386" alt=""></picture>
 													</span>
 												</a>
 												<div class="item-card__title">
@@ -276,7 +270,7 @@
 											<div class="item-card__body _icon-faw-color">
 												<a href="card-product.html" class="item-card__image">
 													<span class="item-card__image-img-ibg">
-														<picture><source srcset="img/catalog/05.webp" type="image/webp"><img src="img/catalog/05.png?_v=1645111550070" alt=""></picture>
+														<picture><source srcset="img/catalog/05.webp" type="image/webp"><img src="img/catalog/05.png?_v=1645353195386" alt=""></picture>
 													</span>
 												</a>
 												<div class="item-card__title">
@@ -301,7 +295,7 @@
 											<div class="item-card__body _icon-faw-color">
 												<a href="card-product.html" class="item-card__image">
 													<span class="item-card__image-img-ibg">
-														<picture><source srcset="img/catalog/02.webp" type="image/webp"><img src="img/catalog/02.png?_v=1645111550070" alt=""></picture>
+														<picture><source srcset="img/catalog/02.webp" type="image/webp"><img src="img/catalog/02.png?_v=1645353195386" alt=""></picture>
 													</span>
 												</a>
 												<div class="item-card__title">
@@ -409,7 +403,7 @@
 	</div>
 
 
-	<script src="js/app.min.js?_v=20220217222550"></script>
+	<script src="js/app.min.js?_v=20220220173315"></script>
 </body>
 
 </html>
